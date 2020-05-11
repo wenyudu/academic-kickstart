@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: publication/acl20.pdf
 url_code: https://github.com/wenyudu/SDLM
 url_dataset:
 url_poster:
