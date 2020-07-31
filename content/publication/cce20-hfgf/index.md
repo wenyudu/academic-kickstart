@@ -1,30 +1,30 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Exploiting Syntactic Structure for Better Language Modeling: A Syntactic Distance Approach"
-authors: [Wenyu Du*, Zhouhan Lin*, Yikang Shen, Timothy J. O'Donnell, Yoshua Bengio, Yue Zhang]
-date: 2020-04-10T20:06:41+08:00
+title: "A Hessian-Free Gradient Flow (HFGF) Method for the Optimisation of Deep Learning Neural Networks"
+authors: [Sushen Zhang, Ruijuan Chen, Wenyu Du, Ye Yuan, Vassilios S. Vassiliadis]
+date: 2020-07-10T20:06:41+08:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020-04-10T20:06:41+08:00
+publishDate: 2020-07-05T20:06:41+08:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "The 58th annual meeting of the Association for Computational Linguistics"
-publication_short: "ACL, long"
+publication: "Computers and Chemical Engineering"
+publication_short: "Computers and Chemical Engineering"
 
-abstract: "It is commonly believed that knowledge of syntactic structure should improve language modeling. However, effectively and computationally efficiently incorporating syntactic structure into neural language models has been a challenging topic. In this paper, we make use of a multi-task objective, i.e., the models simultaneously predict words as well as ground truth parse trees in a form called ''syntactic distances'', where information between these two separate objectives shares the same intermediate representation.  Experimental results on the Penn Treebank and Chinese Treebank datasets show that when ground truth parse trees are provided as additional training signals, the model is able to achieve lower perplexity and induce trees with better quality."
+abstract: "This paper presents a novel optimisation method, termed Hessian-free Gradient Flow, for the optimisation of deep neural networks. The algorithm entails the design characteristics of the Truncated Newton, Conjugate Gradient and Gradient Flow method. It employs a finite difference approximation scheme to make the algorithm Hessian-free and makes use of Armijo conditions to determine the descent condition. The method is first tested on standard testing functions with a high optimisation model dimensionality. Performance on the testing functions has demonstrated the potential of the algorithm to be applied to large-scale optimisation problems. The algorithm is then tested on classification and regression tasks using real-world datasets. Comparable performance to conventional optimisers has been obtained in both cases."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: [Language Modeling, NLP]
+tags: [Optimization, Chemistry]
 categories: []
 featured: false
 
@@ -36,8 +36,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/abs/2005.05864
-url_code: https://github.com/wenyudu/SDLM
+url_pdf: publication/hfgf_preproof.pdf
+url_code:
 url_dataset:
 url_poster:
 url_project:
